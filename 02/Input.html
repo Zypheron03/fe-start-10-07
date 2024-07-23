@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <head>
+        <style>
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <div>
+            <p><h3>button</h3></p>
+            <hr>
+            <label for="button"></label>
+            <input value="Кнопка"  id="button"    type="button" >
+            <input type="button" onclick="alert('Hello World!')" value="Click Me!">
+            <hr>
+        </div>
+        <div>
+            <p><h3>checkbox</h3></p>
+            <hr>
+            
+            <p><input type="checkbox" name="vegetables" >Огірки</p>
+            <p><input type="checkbox" name="vegetables" >Помідори</p>
+            <p><input type="checkbox" name="vegetables" >Капуста</p>
+            <p><input type="checkbox" name="vegetables" >Морква</p>
+            <hr>
+        </div>
+        <div>
+            <p><h3>color</h3></p>
+            <hr>
+            <label for="color"></label>
+            <p>Виберіть колір - <input type="color" name="color" value="#ff0000" id="color"></p>
+            <hr>
+        </div>
+        <div>
+            <p><h3>data</h3></p>
+            <hr>
+            <label for="date"></label>
+            <p>Введіть дату - <input type="date" name="date" id="date"></p>
+            <hr>
+        </div>
+        <div>
+            <p><h3>datetime-local</h3></p>
+            <hr>
+            <label for="datetime-local"></label>
+            <p>Введіть дату і час - <input type="datetime-local" name="datetime-local" id="datetime-local"></p>
+            <hr>
+        </div>
+        <div>
+            <p><h3>email</h3></p>
+            <hr>
+            <label for="email"></label>
+            <p>Введіть електронну адресу - <input type="email" name="email" id="email"></p>
+            <hr>
+        </div>
+        <div>
+            <p><h3>file</h3></p>
+            <hr>
+            <label for="file"></label>
+            <p>Виберіть фаїл - <input type="file" name="file" id="file"></p>
+            <hr>
+        </div>
+        <div>
+            <p><h3>hidden</h3></p>
+            <hr>
+            <p>Приховане поле - <input type="hidden" name="hidden"></p>
+            <hr>
+        </div>
+        <div >
+            <p><h3>image</h3></p>
+            <hr>
+            <label for="image">Зображення - </label>
+            <p ><input type="image" src="/01/01/img/загружено.png" alt="image" id="imalge"></p>
+            <hr>
+        </div>
+        <div>
+            <p><h3>month</h3></p>
+            <hr>
+            <label for="month"></label>
+            <p>Виберіть місяць і рік - <input type="month" name="month" id="month"></p>
+            <hr>
+        </div>
+        <div>
+            <p><h3>number</h3></p>
+            <hr>
+            <label for="number"></label>
+            <p>Введіть число від 1 до 100 і натисніть Enter - <input type="number" name="number" id="number" min="1" max="100" step="1"></p>
+            <hr>
+        </div>
+        <div>
+            <p><h3>password</h3></p>
+            <hr>
+             <label for="password"></label>
+             <p>Введіть пароль - <input type="password" name="password" id="password"></p>
+            <hr>
+        </div>
+        <div>
+            <p><h3>radio</h3></p>
+            <hr>
+            <p>Виберіть щось одне</p>
+            <label for="radio"></label>
+            <p>Так - <input type="radio" name="radio" id="radio"></p>
+            <p>Ні - <input type="radio" name="radio" id="radio"></p>
+            <hr>
+        </div>
+        <div>
+            <p><h3>range</h3></p>
+            <hr>
+            <label for="range"></label>
+            <p>Встановіть гучність - <input type="range" name="range" id="range" min="0" max="100" step="1"></p>
+            <hr>
+        </div>
+        <div>
+            <p><h3>reset</h3></p>
+            <hr>
+            <label for="reset"></label>
+            <p>Очистити все - <input type="reset" value="Очистити"></p>
+            <hr>
+        </div>
+        <div>
+            <p><h3>search</h3></p>
+            <hr>
+            <label for="search"></label>
+            <p>Пошук на сайті - <input type="search" name="search" id="search" placeholder="Пошук"></p>
+            <hr>
+        </div>
+        <div>
+            <p><h3>submit</h3></p>
+            <hr>
+            <label for="submit"></label>
+            <p>Відправити дані на сервер - <input type="submit" value="Відправити" id="submit"></p>
+            <hr>
+        </div>
+        <div>
+            <p><h3>tel</h3></p>
+            <hr>
+            <label for="tel"></label>
+            <p>Введіть номер телефону - <input type="tel" name="tel" id="tel" pattern="[+]?[0-9]{10,15}"></p>
+            <hr>
+        </div>
+        <div>
+            <p><h3>text</h3></p>
+            <hr>
+            <label for="text"></label>
+            <p>Введіть свої дані:</p>
+            <p>Імя - <input type="text" name="text" id="text"></p>
+            <p>Прізвище - <input type="text" name="text" id="text"></p>
+            <hr>
+        </div>
+        <div>
+            <p><h3>time</h3></p>
+            <hr>
+            <label for="time"></label>
+            <p>Встановіть час - <input type="time" name="time" id="time"></p>
+            <hr>
+        </div>
+        <div>
+            <p><h3>url</h3></p>
+            <hr>
+            <label for="url"></label>
+            <p>Вставте ссилку - <input type="url" name="url" id="url"></p>
+            <hr>
+        </div>
+        <div>
+            <p><h3>week</h3></p>
+            <hr>
+            <label for="week"></label>
+            <p>Виберіть тиждень і рік - <input type="week" name="week" id="week"></p>
+            <hr>
+        </div>
+    </form>
+</body>
+</html>

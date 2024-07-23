@@ -1,0 +1,74 @@
+h3{
+    color: rgb(114, 150, 60);
+    background-color: orange;
+    margin-bottom: 80px;
+    padding: 50px;
+}
+/*Tage name*/
+
+h2{
+    color: rgb(43, 48, 35);
+    background-color: rgb(77, 59, 26);
+    margin-bottom: 80px;
+    padding: 50px; 
+}
+p{
+    font-size: 50px;
+    color: green;
+    background-color: aqua;
+}
+h1{
+    background-color: aquamarine;
+    text-align: center;
+}
+h6{
+    background-color: aquamarine;
+    text-align: center;
+}
+h4{
+    background-color: aquamarine;
+    text-align: center;
+}
+h5{
+    background-color: aquamarine;
+    text-align: center;
+}
+section p{
+    background-color: blueviolet;
+    color: brown;
+}
+#grenn{
+    background-color: blue;
+    color: white;
+}
+#bluo{
+    background-color: coral;
+    color: white;
+}
+#herrwf{
+    background-color: blueviolet;
+    color: white;
+}
+.green{
+    background-color: green;
+    color: white;
+}
+.blue{
+    background-color: blue;
+    color: white;
+}
+ul li:first-child{
+    background-color: aqua;
+    color: white
+}
+ul li:last-child{
+    background-color: brown;
+    color: white;
+}
+ul li:nth-child(3){
+    background-color: hotpink;
+    color: white;
+}
+ul li:hover{
+    background-color: darkgreen;
+}

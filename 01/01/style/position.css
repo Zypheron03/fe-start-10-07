@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: aqua;
+    text-align: center;
+    padding: 35px;
+   /*  position: fixed; */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+section{
+    width: 350px;
+    margin: 0 auto;
+    font-size: 25px;
+    background-color: blueviolet;
+}
+button{
+    background-color: cadetblue;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 20px;
+    position: fixed;
+    top: 350px;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+    
+}
+.abs{
+    background-color: brown;
+   /*  width: 450px; */
+   padding: 20px;
+    /* height: 50px; */
+    margin: 0 auto;
+    border: 1px solid red;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+   
+}
+.abs.second{
+    top: 23px;
+    left: 4px;
+    background-color: hotpink;
+}
+.relative{
+    background-color: gold;
+    padding: 20px;
+    border: 3px solid rgb(214, 100, 100);
+    position: relative;
+}
+.relative.Second{
+    background-color: aquamarine;
+    top: 20px;
+    left: 40px;
+    z-index: 2;
+}
+h1::before{
+content: "";
+display: inline-block;
+width: 50px;
+height: 2px;
+background-color: aqua;
+position: relative;
+top: -25px;
+
+
+}
+h1::after{
+ content: "";
+}

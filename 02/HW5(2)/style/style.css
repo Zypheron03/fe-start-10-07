@@ -36,21 +36,21 @@ top: 119px;
   height: 351px;
 
 }
+.article-first-other,
+.article-first-text{
+  display: inline-block;
+  vertical-align: top;
+  
+}
 .article-first-other{
-  position: absolute;
   width: 295px;
   height: 100%;
-  
-  top: 0;
-  left: 0;
 }
 .article-first-text{
-  position: absolute;
+  padding-left: 91px;
   width: 745px;
   height: 100%;
   
-  top: 0;
-  right: 0;
 }
 .conteiner-1{
   /* Rectangle 1 */
@@ -209,15 +209,19 @@ opacity: 0px;
   top: 1834px;
   left: 188px;
 }
+.article-fourth-text,
+.article-fourth-other{
+  display: inline-block;
+  vertical-align: top;
+}
 .article-fourth-text{
   width: 705px;
   height: 100%;
 }
 .article-fourth-other{
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 356px;
+  position: relative;
+  padding-left: 73px;
+  width: 357px;
   height: 100%;
 }
 .title-4{
@@ -236,22 +240,30 @@ text-align: left;
 }
 .conteiner-2{
   position: absolute;
-  left: 0;
-  top: 0;
   width: 356px;
   height: 252px;
   background: #D9D9D9;
   border-radius: 38px;
+  left: 73px;
+  top: 0;
 
 }
 .conteiner-2 img{
   position: absolute;
-  top: 187px;
+  top: 187;
   left: 29px;
+  width: 76px;
+  height: 47px;
+  /* top: 2029px;
+  left: 997px; */
+  gap: 0px;
+  opacity: 0px;
+  
 }
 .quote-2{
-  padding-top: 30px ;
-  padding-left: 29px ;
+  position: absolute;
+  top: 30px ;
+  left: 29px ; 
   font-family: Bai Jamjuree;
   font-size: 24px;
   font-style: italic;
@@ -297,16 +309,18 @@ text-align: left;
   width: 1119px;
   height: 440px; 
 }
-
+.article-fifth-other,
+.article-fifth-text{
+  display: inline-block;
+  vertical-align: top;
+}
 .article-fifth-other{
   width: 356px;
   height: 100%; 
 }
 
 .article-fifth-text{
-  position: absolute;
-  top: 0;
-  right: 0;
+  padding-left: 84px;
   width: 680px;
   height: 100%; 
 }

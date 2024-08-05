@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: orange;
+    padding:70px 0px;
+}
+.header-wraper{
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    border: 2px solid black;
+    margin: 0 auto;
+}

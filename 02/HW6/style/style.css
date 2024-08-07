@@ -174,17 +174,27 @@ h2 span{
     border: 2px solid rgb(167, 166, 166);
     background-color: transparent;
     transition: transform 0.3s, border-color 0.3s;
+    text-align: center;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
 }
 .chevron-1{
-    padding-top:10px;
-    padding-left: 13px;
+   /*  padding-top:10px;
+    padding-left: 13px; */
     color: rgb(167, 166, 166);
+    align-self: center;
+    margin-top: 6px;
+    margin-left: 13px;
     
 }
 .chevron-2{
-    padding-top:10px;
-    padding-left: 13px;
+   /*  padding-top:10px;
+    padding-left: 13px; */
     color: rgb(167, 166, 166);
+    align-self: center;
+    margin-top: 6px;
+    margin-left: 13px;
 }
 .circle-1:hover,
 .circle-2:hover{
@@ -201,9 +211,14 @@ h2 span{
     width: 100%;
     padding-top: 10px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    grid-row: 50px;
+   
+}
+.image{
+    width: 17%;
+}
+.img{
+    width: 100%;
 }
 .sixteen{
     display: flex;

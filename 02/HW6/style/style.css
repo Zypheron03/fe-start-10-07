@@ -51,11 +51,12 @@ header{
     margin-left: 56px;
     border-left:  3px solid rgb(200, 200, 200);
 }
-.fa-solid{
-    margin-right: 19px;
+
+.fa-magnifying-glass{
     color: rgb(255, 255, 255);
     padding-right: 45px;
 }
+
 .search-avatar{
     display: flex;
     justify-content: space-between;
@@ -176,31 +177,26 @@ h2 span{
     transition: transform 0.3s, border-color 0.3s;
     text-align: center;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:center;
     align-items: center;
 }
-.chevron-1{
-   /*  padding-top:10px;
-    padding-left: 13px; */
+.circle-1,
+.circle-2{
     color: rgb(167, 166, 166);
-    align-self: center;
-    margin-top: 6px;
-    margin-left: 13px;
-    
+
 }
-.chevron-2{
-   /*  padding-top:10px;
-    padding-left: 13px; */
-    color: rgb(167, 166, 166);
-    align-self: center;
-    margin-top: 6px;
-    margin-left: 13px;
+.circle-1:hover div{
+    color: white;
+}
+.circle-2:hover div{
+    color: white;
 }
 .circle-1:hover,
 .circle-2:hover{
     transform: scale(1.2);
     border: 2px solid white;
 }
+
 .chevron-1:hover,
 .chevron-2:hover{
     transform: scale(1.2);

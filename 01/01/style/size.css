@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body,
+html{
+    font-size: 15px;
+    margin: 0;
+}
+/* h1{
+    font-size: 3em;
+    padding: 2em 0;
+}
+p{
+    font-size: 2em;
+    margin: 2em 0;
+    padding: 2em 0;
+} */
+.percent{
+    width: 50%;
+    background-color: aqua;
+}
+.vp{
+    width: 25vw;
+    background-color: blueviolet;
+}
+.porse{
+    width: 80%;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+section{
+    height: 100%;
+    background-color: aqua;
+    
+}
+section:nth-child(1){
+    background-color: rosybrown;
+    height: 100vh;
+}
+section:nth-child(2){
+    background-color: khaki;
+    height: 50vh;
+}
+section:nth-child(3){
+    background-color: blueviolet;
+    height: 50vh;
+}
